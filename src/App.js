@@ -14,9 +14,12 @@ function App() {
       <Header />
 
       <div className="container mt-5">
+        
         <div className="row">
           <Formulario />
         </div>
+        <ListaRecetas />
+
       </div>
       </RecetasProvider>
     </CategoriasProvider>
